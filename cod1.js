@@ -9,10 +9,10 @@ $(function(){
         e.preventDefault();
 
         if(!flag){
-            $("#menu_linck").slideDown(2000);
+            $("#menu_linck").slideDown(5000);
             b.css("display", "flex")
         } else {
-            $("#menu_linck").slideUp(2000);
+            $("#menu_linck").slideUp(5000);
             b.css("display", "flex")
         }
         flag = !flag
